@@ -1,0 +1,22 @@
+CRITICAL - 2023-06-09 03:38:27 --> syntax error, unexpected token ";"
+in APPPATH\Views\homeview.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('homeview', [], true)
+ 3 APPPATH\Controllers\Homeact.php(17): view('homeview')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Homeact->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homeact))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-09 03:39:07 --> Undefined variable $page_title
+in APPPATH\Views\layouts\header.php on line 4.
+ 1 APPPATH\Views\layouts\header.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'APPPATH\\Views\\layouts\\header.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layouts/header', [], true)
+ 5 APPPATH\Controllers\Homeact.php(23): view('layouts/header')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Homeact->about()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homeact))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
