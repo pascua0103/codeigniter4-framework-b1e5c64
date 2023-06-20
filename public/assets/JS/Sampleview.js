@@ -36,10 +36,10 @@ function resolveAfter5Seconds(){
     });
 }
 
-//Report and Statistics
+//Available Products
 async function getValueofAvailableProduct() {
     try {
-      const response = await fetch('http://localhost:8080/dashview');
+      const response = await fetch('http://localhost:8080/activity8');
       const html = await response.text();
   
       // Parse the HTML string
@@ -47,7 +47,7 @@ async function getValueofAvailableProduct() {
       const doc = parser.parseFromString(html, 'text/html');
   
       // Find the <h3> element and extract its value
-      const element = doc.getElementById('Available Products');
+      const element = doc.getElementById('available_products');
       const value = element.textContent;
       
       console.log('Retrieving Available Products');
@@ -59,10 +59,10 @@ async function getValueofAvailableProduct() {
     }
   }
 
-  //Residents
+  //Product Price
     async function getValueofProductPrice() {
     try {
-      const response = await fetch('http://localhost:8080/dashview');
+      const response = await fetch('http://localhost:8080/activity8');
       const html = await response.text();
   
       // Parse the HTML string
@@ -70,7 +70,7 @@ async function getValueofAvailableProduct() {
       const doc = parser.parseFromString(html, 'text/html');
   
       // Find the <h3> element and extract its value
-      const element = doc.getElementById('Product Price');
+      const element = doc.getElementById('product_price');
       const value = element.textContent;
       
       console.log('Retrieving Product Price');
@@ -81,10 +81,10 @@ async function getValueofAvailableProduct() {
       console.error(error);
     }
   }
-    //User Registered
+    //Customers Order
     async function getValueofCustomersOrder() {
         try {
-          const response = await fetch('http://localhost:8080/dashview');
+          const response = await fetch('http://localhost:8080/activity8');
           const html = await response.text();
       
           // Parse the HTML string
@@ -92,7 +92,7 @@ async function getValueofAvailableProduct() {
           const doc = parser.parseFromString(html, 'text/html');
       
           // Find the <h3> element and extract its value
-          const element = doc.getElementById('Customers Order');
+          const element = doc.getElementById('customers_order');
           const value = element.textContent;
           
           console.log('Retrieving Customers Order');
@@ -103,10 +103,10 @@ async function getValueofAvailableProduct() {
           console.error(error);
         }
       }
-        //Barangay Officials
+        //Total Transaction
     async function getValueofTotalTransaction() {
         try {
-          const response = await fetch('http://localhost:8080/dashview');
+          const response = await fetch('http://localhost:8080/activity8');
           const html = await response.text();
       
           // Parse the HTML string
@@ -114,7 +114,7 @@ async function getValueofAvailableProduct() {
           const doc = parser.parseFromString(html, 'text/html');
       
           // Find the <h3> element and extract its value
-          const element = doc.getElementById('Total Transaction');
+          const element = doc.getElementById('total_transaction');
           const value = element.textContent;
           
           console.log('Retrieving Total Transaction');

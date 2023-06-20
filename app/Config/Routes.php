@@ -45,6 +45,15 @@ $routes->get('/activity6/home/about', 'Homeact::about');
 $routes->get('/activity7', 'Sampleview::index');
 
 
+
+
+$routes->get('/getvalues', 'Activity8cont::getInfo');
+$routes->get('/activity8', 'Activity8cont::index');
+
+
+
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
