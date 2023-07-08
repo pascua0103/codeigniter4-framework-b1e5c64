@@ -28,7 +28,9 @@
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
+  
 
+  
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
     <img src="assets/AdminLTE-3.2.0/dist/img/Loading_icon.gif" alt="AdminLTELogo" height="60" width="60">
@@ -184,7 +186,7 @@
           <img src="assets/AdminLTE-3.2.0/dist/img/avatar.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="dashview" class="d-block">Neildric Pascua</a>
+          <a href="dashview" class="d-block">Barangay Sinagtala</a>
         </div>
       </div>
 
@@ -216,27 +218,22 @@
             <a href="module1" class="nav-link" >
             <i class="fa fa-folder" aria-hidden="true"></i>
               <p>
-                Module 1 
+              Barangay Officials
               </p>
             </a>
             <a href="module2" class="nav-link">
             <i class="fa fa-folder" aria-hidden="true"></i>
               <p>
-                Module 2 
+              Barangay Voters
               </p>
             </a>
             <a href="module3" class="nav-link">
             <i class="fa fa-folder" aria-hidden="true"></i>
               <p>
-                Module 3 
+              Barangay Returned Items
               </p>
             </a>
-            <a href="module4" class="nav-link">
-            <i class="fa fa-folder" aria-hidden="true"></i>
-              <p>
-                Module 4 
-              </p>
-            </a>
+            
  
           </li>
   <!-- Side menu -->
@@ -256,7 +253,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Neildric's Dashboard</h1>
+            <h1 class="m-0"> Barangay Dashboard</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -278,12 +275,12 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3 id = "Available Products">150</h3>
+                <h3 id = "Barangay Officials">10</h3>
 
-                <p>Available Products</p>
+                <p>Barangay Officials</p>
               </div>
               <div class="icon">
-                <i class="ion ion-bag"></i>
+                
               </div>
               <a href="module1" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -293,12 +290,12 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3 id = "Product Price">53<sup style="font-size: 20px">%</sup></h3>
+                <h3 id = "Barangay Voters">15</h3>
 
-                <p>Product Price</p>
+                <p>Barangay Voters</p>
               </div>
               <div class="icon">
-                <i class="ion ion-stats-bars"></i>
+                
               </div>
               <a href="module2" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -308,34 +305,22 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3 id = "Customers Order">44</h3>
+                <h3 id = "Barangay Returned Items">5</h3>
 
-                <p>Cuctomers Order</p>
+                <p>Barangay Returned Items</p>
               </div>
               <div class="icon">
-                <i class="ion ion-person-add"></i>
+                
               </div>
               <a href="module3" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3 id = "Total Transaction">65</h3>
-
-                <p>Total Transaction</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="module4" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
+          
           <!-- ./col -->
         </div>
         <!-- /.row -->
+        
 
 
   <!-- Control Sidebar -->

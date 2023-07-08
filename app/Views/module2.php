@@ -177,7 +177,7 @@
           <img src="assets/AdminLTE-3.2.0/dist/img/avatar.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="dashview" class="d-block">Neildric Pascua</a>
+          <a href="dashview" class="d-block">Barangay Sinagtala</a>
         </div>
       </div>
 
@@ -208,27 +208,22 @@
             <a href="module1" class="nav-link">
             <i class="fa fa-folder" aria-hidden="true"></i>
               <p>
-                Module 1 
+                Barangay Officials
               </p>
             </a>
             <a href="module2" class="nav-link active">
             <i class="fa fa-folder-open" aria-hidden="true"></i>
               <p>
-                Module 2 
+                Barangay Voters 
               </p>
             </a>
             <a href="module3" class="nav-link">
             <i class="fa fa-folder" aria-hidden="true"></i>
               <p>
-                Module 3 
+                Barangay Returned Items 
               </p>
             </a>
-            <a href="module4" class="nav-link">
-            <i class="fa fa-folder-open" aria-hidden="true"></i>
-              <p>
-                Module 4 
-              </p>
-            </a>
+            
  
           </li>
   <!-- Side menu -->
@@ -241,15 +236,50 @@
     <!-- /.sidebar -->
   yy</aside>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+ <!-- Content Wrapper. Contains page content -->
+ <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0">Module 2</h1>
-          </div><!-- /.col -->
+    <h1>Barangay Voters</h1>
+    <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th><button type="button" class="btn btn-primary">
+        <a href="uservoters" style="color: White">Add </a></button></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td><button type="button" class="btn btn-primary">
+        <a href="dashview" style="color: White">Edit   <i class="fa fa-edit"></i></a></button></td>
+      <td><button type="button" class="btn btn-danger">Delete  <i class='fas fa-trash-alt'></i></button></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td><button type="button" class="btn btn-primary">
+        <a href="dashview" style="color: White">Edit   <i class="fa fa-edit"></i></a></button></td>
+      <td><button type="button" class="btn btn-danger">Delete  <i class='fas fa-trash-alt'></i></button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td><button type="button" class="btn btn-primary">
+        <a href="dashview" style="color: White">Edit   <i class="fa fa-edit"></i></a></button></td>
+      <td><button type="button" class="btn btn-danger">Delete  <i class='fas fa-trash-alt'></i></button></td>
+    </tr>
+  </tbody>
+</table>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">

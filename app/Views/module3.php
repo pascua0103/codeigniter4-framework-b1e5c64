@@ -177,7 +177,7 @@
           <img src="assets/AdminLTE-3.2.0/dist/img/avatar.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="dashview" class="d-block">Neildric Pascua</a>
+          <a href="dashview" class="d-block">Barangay Sinagtala</a>
         </div>
       </div>
 
@@ -208,27 +208,22 @@
             <a href="module1" class="nav-link">
             <i class="fa fa-folder" aria-hidden="true"></i>
               <p>
-                Module 1 
+                Barangay Officials 
               </p>
             </a>
             <a href="module2" class="nav-link">
             <i class="fa fa-folder" aria-hidden="true"></i>
               <p>
-                Module 2 
+                Barangay Voters
               </p>
             </a>
             <a href="module3" class="nav-link active">
             <i class="fa fa-folder-open" aria-hidden="true"></i>
               <p>
-                Module 3 
+                Barangay Returned Items
               </p>
             </a>
-            <a href="module4" class="nav-link">
-            <i class="fa fa-folder-open" aria-hidden="true"></i>
-              <p>
-                Module 4 
-              </p>
-            </a>
+            
  
           </li>
   <!-- Side menu -->
@@ -244,14 +239,16 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <h1>Customer's Order</h1>
+    <h1>Barangay Returned Items</h1>
     <table class="table">
   <thead class="thead-dark">
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
+      <th scope="col">First name</th>
+      <th scope="col">Last name</th>
       <th scope="col">Item Name</th>
+      <th><button type="button" class="btn btn-primary">
+        <a href="useritems" style="color: White">Add </a></button></th>
       <th scope="col"></th>
       <th scope="col"></th>
     </tr>
@@ -261,7 +258,7 @@
       <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
-      <td>@mdo</td>
+      <td>10 Chairs</td>
       <td><button type="button" class="btn btn-primary">
         <a href="dashview" style="color: White">Edit   <i class="fa fa-edit"></i></a></button></td>
       <td><button type="button" class="btn btn-danger">Delete  <i class='fas fa-trash-alt'></i></button></td>
@@ -271,7 +268,7 @@
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
-      <td>@fat</td>
+      <td>5 Tables</td>
       <td><button type="button" class="btn btn-primary">
         <a href="dashview" style="color: White">Edit   <i class="fa fa-edit"></i></a></button></td>
       <td><button type="button" class="btn btn-danger">Delete  <i class='fas fa-trash-alt'></i></button></td>
@@ -280,7 +277,7 @@
       <th scope="row">3</th>
       <td>Larry</td>
       <td>the Bird</td>
-      <td>@twitter</td>
+      <td>5 Tent</td>
       <td><button type="button" class="btn btn-primary">
         <a href="dashview" style="color: White">Edit   <i class="fa fa-edit"></i></a></button></td>
       <td><button type="button" class="btn btn-danger">Delete  <i class='fas fa-trash-alt'></i></button></td>

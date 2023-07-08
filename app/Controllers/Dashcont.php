@@ -6,6 +6,6 @@ class Dashcont extends BaseController
 {
     public function dashcont()
     {
-        return view('dashview');
+        return view('login');
     }
 }

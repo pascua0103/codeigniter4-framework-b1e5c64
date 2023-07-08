@@ -34,21 +34,19 @@ $routes->get('/dashboard', 'Dashcont::dashcont');
 $routes->get('/module1', 'Module1::index');
 $routes->get('/module2', 'Module2::index');
 $routes->get('/module3', 'Module3::index');
-$routes->get('/module4', 'Module4::index');
 $routes->get('/dashview', 'Dashview::index');
-
-
+$routes->get('/user', 'User::module1');
+$routes->get('/uservoters', 'User::module2');
+$routes->get('/useritems', 'User::module3');
 
 $routes->get('/activity6/home', 'Homeact::index');
 $routes->get('/activity6/home/about', 'Homeact::about');
 
 $routes->get('/activity7', 'Sampleview::index');
 
-
-
-
 $routes->get('/getvalues', 'Activity8cont::getInfo');
 $routes->get('/activity8', 'Activity8cont::index');
+
 
 
 

@@ -1,0 +1,12 @@
+CRITICAL - 2023-07-08 15:17:32 --> Table 'dbbarangayproj.dbbarangayproj' doesn't exist
+in APPPATH\Views\module1.php on line 271.
+ 1 APPPATH\Views\module1.php(271): mysqli->query('SELECT * FROM dbbarangayproj')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\module1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('module1', [], true)
+ 5 APPPATH\Controllers\Module1.php(9): view('module1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Module1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Module1))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
